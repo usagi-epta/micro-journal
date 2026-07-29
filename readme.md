@@ -68,6 +68,7 @@ With Micro Journal, I'm exploring how to build such a device from the ground up.
 * [YouTube – @unkyulee](https://www.youtube.com/@unkyulee)
 * [Reddit – Un Kyu Lee](https://www.reddit.com/r/unkyulee/)
 * [Focused Writing Device Forum](https://www.flickr.com/groups/alphasmart/discuss/)
+* [Hook's Web Site with Micro Journal Reviews](http://www.thewritekeys.com:8080/)
 
 
 ## Support
