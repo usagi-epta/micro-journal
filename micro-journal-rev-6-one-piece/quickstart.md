@@ -60,22 +60,39 @@ The one real difference is that it uses an ortholinear keyboard, meaning it has 
 ⚠️ When the 'P' and 'Backspace' Keys Aren't Working. This issue usually occurs if the battery hasn't been installed or if the USB cable is plugged into the wrong port. Make sure not to use the USB-C port on the lower left side, which is closer to the keyboard. There are two USB-C ports on the left side of the device; always use the upper USB-C port to power the device properly.
 
 
-### SD Card Preparation
 
-![SD](./images/sd.jpg)
-- (not included) Use ≤32 GB SD card, formatted **FAT32**.  
-- Insert carefully into the deep slot to avoid dropping inside enclosure.  
-- Larger cards require partitioning.  
-  
-⚠️ Important Note on SD Cards
+### Transfer or Back Up Your Writing
 
-The **Micro Journal Rev.6 requires a full-size SD card**, not a microSD card. If you only have a microSD card, make sure it comes with a proper **SD card adapter** so it can fit into the device. 
+#### Drive Mode
+
+1. Connect the lower USB-C port (Left-side port while looking at both ports) to your computer.
+2. Press `Esc` to open the menu.
+3. Select **Drive Mode** or press `U`.
+4. Open the Micro Journal drive on your computer and copy the `.txt` files.
+5. Eject the drive from your computer, or press `Esc` on the Micro Journal and wait for the editor to return.
+6. Disconnect the USB cable.
+
+Do not disconnect the cable while files are being copied. Make sure to back up your files when editing files directly at Drive Mode. 
+
+#### BLE Send
+
+Pair the Micro Journal with a computer or phone using **BLE Keyboard** in the menu. Open a document on the receiving device, then press the top-left and top-right keys together. With the default layout, these are `Esc` and `Del`. The current file will be typed into the open document.
+
+#### Google Drive Sync
+
+After Google Drive Sync is configured, select **Sync** from the menu to upload the current file. See [How to Set Up Google Drive Sync](../micro-journal-rev-6-one-piece/googledrive.md).
+
 
 
 ### Firmware Update
+
 1. Download latest firmware from [GitHub Releases](https://github.com/unkyulee/micro-journal/releases).  
 2. Copy `firmware_rev_6.bin` to SD card.  
 3. Reboot device; it will auto-update.  
+
+⚠️ If you are moving from v.1.x to v.2.x then you must perform a full web flash step once.
+
+https://github.com/unkyulee/micro-journal/releases/tag/2.0.0
 
 
 
@@ -98,11 +115,6 @@ H를 눌러 한글 입력 모드를 활성화 시키면 설정 완료 입니다.
 
 
 
-### Google Sync Setup
-
-Please, refer to the following guide to complete the setup to enable Google Drive Sync.
-
-[Google Drive Sync Setup Guide](./googledrive.md)
 
 
 ---
