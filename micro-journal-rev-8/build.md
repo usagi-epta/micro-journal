@@ -35,6 +35,11 @@ Display ST7306
 YDP420H001-V3
 Osptek Display
 
+Driver Reference Code: 
+https://gitee.com/osptek/4.2-lcd-300x400-spi-st7305
+
+
+
 | PIN          | Description                                                              |
 | ------------ | ------------------------------------------------------------------------ |
 | 5 - VCC      | Power Source 3.3V                                                        |
