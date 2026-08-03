@@ -66,7 +66,7 @@ After deployment, you will be given a **Web App URL**. Copy this link — it wil
 
 In case of Rev.8 use Drive Mode
 
-1. Insert the SD card into your computer.  
+1. Insert the SD card into your computer.  (or Drive Mode)
 2. Open (or create) a file named `config.json`.  
 3. Replace its contents with the following template, inserting your Web App URL in place of the placeholder:
 
@@ -86,6 +86,9 @@ In case of Rev.8 use Drive Mode
 Ensure WiFi is configured before attempting sync.  
 
 1. On the device, press **MENU**.  
-2. Press **S** to initiate sync.  
+2. Press **S** to initiate sync.
+
+**Note:** Sync menu won't appear when WIFI is not configured. Please, configure wifi.
+
 
 **Note:** The ESP32 only supports **2.4 GHz WiFi**. It will not connect to 5 GHz networks. Sync menu will not appear if Google Drive Sync is not configured.
